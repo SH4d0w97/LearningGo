@@ -2,5 +2,6 @@
 pkg/
 pkg/mod
 pkg/mod/cache
+pkg/mod/cache/lock
 .idx
 .vscode
