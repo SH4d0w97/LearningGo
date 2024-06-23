@@ -2,7 +2,7 @@
 /pkg/
 
 # Ignore .idx directory
-*.idx/
+.idx/
 
 # Ignore .vscode directory
 .vscode/
