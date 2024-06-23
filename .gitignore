@@ -1,4 +1,6 @@
+/pkg
 pkg/
 pkg/mod
 pkg/mod/cache
 .idx
+.vscode
