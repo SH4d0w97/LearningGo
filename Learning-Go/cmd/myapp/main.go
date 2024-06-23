@@ -1,6 +1,7 @@
 package main
 
 import (
+	"Learning-Go/pak/mypkg"
 	"bufio"
 	"fmt"
 	"log"
@@ -16,7 +17,7 @@ func main() {
 	name, err := reader.ReadString('\n')
 
 	if err == nil {
-		fmt.Println("Hello,", name)
+		Pl(mypkg.Hello(name))
 	} else {
 		log.Fatal(err)
 	}
