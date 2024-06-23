@@ -1,5 +1,5 @@
 # Ignore the pkg folder and its contents
-pkg\
-pkg\mod\cache\lock
+pkg/*
+pkg/mod/cache/lock
 .idx
 .vscode
