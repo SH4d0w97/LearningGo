@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
 )
 
 // Pl is an alias for fmt.Println for brevity
@@ -17,7 +18,8 @@ func main() {
 	name, err := reader.ReadString('\n') // Read the user's input until a newline character
 
 	if err == nil {
-		Pl(mypkg.Hello(name)) // If there's no error, greet the user using the mypkg.Hello function
+		// Trim any leading/trailing whitespace and newline characters strings.TrimSpace()
+		Pl(strings.TrimSpace(mypkg.Hello(name))) // If there's no error, greet the user using the mypkg.Hello function
 	} else {
 		log.Fatal(err) // Otherwise, log the error and exit the program
 	}
