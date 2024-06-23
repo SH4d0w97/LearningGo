@@ -1,4 +1,4 @@
 # Ignore the pkg folder and its contents
-pkg/
+/pkg/
 .idx
 .vscode
