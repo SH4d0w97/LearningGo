@@ -7,6 +7,20 @@ import (
 	"strings"
 )
 
+/*
+Question: Write a program that concatenates three strings and prints the result.
+
+Test Case:
+
+Enter the first string: Hello
+Enter the second string: World
+Enter the third string: !
+Result: HelloWorld!
+
+Answer : StrConcat, StrConcatV2
+*/ 
+
+
 func StrConcat() string{
 
 	/*
