@@ -1,18 +1,23 @@
 package main
 
 import (
-	"Learning-Go/pak/mypkg"
-	"bufio"
+	"Learning-Go/pak/myexercises"
+	// "Learning-Go/pak/mypkg"
+	// "bufio"
 	"fmt"
-	"log"
-	"os"
-	"strings"
+	// "log"
+	// "os"
+	// "strings"
 )
 
 // Pl is an alias for fmt.Println for brevity
 var pl = fmt.Println
 
 func main() {
+
+	/*
+
+	NOTE: ADD MENU OPTION AFTER LEARNING SWITCH-CASE
 
 	pl("--------------- Hello World ---------------")
 
@@ -32,4 +37,11 @@ func main() {
 
 	pl("--------------- Constants ---------------")
 	mypkg.Constants()
+
+	*/
+
+	pl("--------------- EXERCISE 1 ---------------")
+	// pl("Result : ",	myexercises.StrConcat()) V1
+	pl("RESULT : ", myexercises.StrConcatV2())
+
 }
